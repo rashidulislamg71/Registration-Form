@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1400px;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.select_{
+    color: rgb(187, 27, 27);
+}
+
+
+.container{
+    padding: 30px 100px;
+}
+.logo{
+    justify-content:space-between;
+    align-items: center;    
+    background: rgba(128, 128, 128, 0.233);
+}
+
+.logo img{
+    width: 150px;
+    height: 100px;
+}
+
+
+.menu_container{
+
+}
+
+.menu_links{
+    border-bottom: 1px solid gainsboro
+}
+.menu_links ul{
+
+}
+.menu_links ul li{
+    list-style: none;
+    padding: 10px 20px;
+}
+.menu_links ul li a{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.849);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.title{
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+.form_info{
+    padding: 20px;
+    gap: 100px;
+
+}
+
+label{
+    color: rgba(0, 0, 0, 0.856);
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+input, select{
+    margin-bottom: 10px;
+  width: 250px;
+  padding: 2px;
+  color: rgba(0, 0, 0, 0.815);
+}
+
+#date_of_birth{
+    width: 70px;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+input[type="file"]{
+    margin-bottom: 0;
+
+}
+
+.form_left_side_info{
+    width: 300px;
+}
+
+small{
+    color: rgb(153, 153, 153);
+    font-size: 12px; 
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    color: white;
+    background: rgb(26, 152, 184);
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
